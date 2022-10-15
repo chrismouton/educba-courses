@@ -6,8 +6,8 @@ def main():
     num2 = int(input("Please enter the second number: "))
 
     print("Before swapping:")
-    print("num1 := {0}".format(num1))
-    print("num2 := {0}".format(num2))
+    print(f"num1 := {num1}")
+    print(f"num2 := {num2}")
     print()
 
     temp = num1
@@ -15,8 +15,8 @@ def main():
     num2 = temp
 
     print("After swapping:")
-    print("num1 := {0}".format(num1))
-    print("num2 := {0}".format(num2))
+    print(f"num1 := {num1}")
+    print(f"num2 := {num2}")
 
 
 if __name__ == '__main__':
